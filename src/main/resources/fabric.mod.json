@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "tacfabric",
+  "version": "${version}",
+  "name": "Timeless and Classic on fabric",
+  "description": "Moves TaC from forge to fabric",
+  "authors": [
+    "ChickenPige0n"
+  ],
+  "contributors": [],
+  "contact": {
+    "homepage": "https://github.com/ChickenPige0n/TaCFabric",
+    "sources": "https://github.com/ChickenPige0n/TaCFabric"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/tacfabric/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.chickenpige0n.tacfabric.TaCFabric"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "tacfabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.5",
+    "fabric": "*"
+  }
+}
